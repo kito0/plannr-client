@@ -6,11 +6,19 @@
 }
 
 .sidebarOption {
+	max-height: 10vh;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	cursor: pointer;
 	color: $text;
+	.sidebarOption--active {
+		background-color: $hover;
+		@include trans();
+		h2 {
+			@include trans();
+		}
+	}
 	&:hover {
 		background-color: $hover;
 		border-radius: 0px;

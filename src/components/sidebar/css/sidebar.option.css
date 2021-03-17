@@ -1,4 +1,5 @@
 .sidebarOption {
+  max-height: 10vh;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,6 +9,19 @@
           align-items: center;
   cursor: pointer;
   color: #a1a9a7;
+}
+
+.sidebarOption .sidebarOption--active {
+  background-color: #546f76;
+  color: black;
+  -webkit-transition: color 300ms ease;
+  transition: color 300ms ease;
+}
+
+.sidebarOption .sidebarOption--active h2 {
+  color: black;
+  -webkit-transition: color 300ms ease;
+  transition: color 300ms ease;
 }
 
 .sidebarOption:hover {
