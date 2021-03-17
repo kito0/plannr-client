@@ -1,0 +1,15 @@
+.deadlinedialog {
+  background-color: grey;
+  max-width: 1080px;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.deadlinedialog .textfield {
+  margin: 10px 0px;
+}
+/*# sourceMappingURL=deadline.dialog.css.map */

@@ -1,9 +1,9 @@
 import React from 'react';
-import { IconButton, Typography } from '@material-ui/core';
-import { Edit, Delete } from '@material-ui/icons';
+import './css/deadline.card.css';
 import { useDispatch } from 'react-redux';
 import { EditDeadline, DeleteDeadline } from '../../redux/deadlines';
-import './css/deadline.card.css';
+import { IconButton, Typography } from '@material-ui/core';
+import { Edit, Delete } from '@material-ui/icons';
 
 export default function DeadlineCard({ deadline }) {
 	const dispatch = useDispatch();

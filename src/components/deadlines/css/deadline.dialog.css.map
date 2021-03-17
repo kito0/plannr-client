@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,eAAe,CAAC;EACf,gBAAgB,EAAE,IAAI;EACtB,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;CAKb;;AAXD,AAQC,eARc,CAQd,UAAU,CAAC;EACV,MAAM,EAAE,QAAQ;CAChB",
+    "sources": [
+        "deadline.dialog.scss",
+        "../../../css/_theme.scss"
+    ],
+    "names": [],
+    "file": "deadline.dialog.css"
+}

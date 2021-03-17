@@ -1,0 +1,14 @@
+@import '../../../css/theme';
+
+.deadlinedialog {
+	background-color: grey;
+	max-width: 1080px;
+	width: 100%;
+	overflow-x: hidden;
+	padding: 20px;
+	display: flex;
+
+	.textfield {
+		margin: 10px 0px;
+	}
+}
