@@ -20,7 +20,7 @@ export default function Deadlines() {
 	return (
 		<div className="deadlines">
 			{/* display today */}
-			<Accordion classsName="accordion">
+			<Accordion className="accordion">
 				<AccordionSummary>
 					<p>Today</p>
 				</AccordionSummary>
@@ -32,7 +32,7 @@ export default function Deadlines() {
 					</ul>
 				</AccordionDetails>
 			</Accordion>
-			<Accordion classsName="accordion">
+			<Accordion className="accordion">
 				<AccordionSummary>
 					<p>This Week</p>
 				</AccordionSummary>
@@ -40,7 +40,7 @@ export default function Deadlines() {
 					<p>Placeholder</p>
 				</AccordionDetails>
 			</Accordion>
-			<Accordion classsName="accordion">
+			<Accordion className="accordion">
 				<AccordionSummary>
 					<p>Upcoming</p>
 				</AccordionSummary>

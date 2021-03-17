@@ -19,7 +19,7 @@ export default function DeadlineCard({ deadline }) {
 					</Typography>
 				</div>
 				<div className="card_buttons">
-					<IconButton className="button">
+					<IconButton className="button" color="secondary">
 						<Edit />
 					</IconButton>
 					<IconButton
@@ -27,6 +27,7 @@ export default function DeadlineCard({ deadline }) {
 							DeleteDeadline(dispatch, deadline._id);
 						}}
 						className="button"
+						color="secondary"
 					>
 						<Delete />
 					</IconButton>

@@ -6,4 +6,12 @@
 	width: 20vw;
 	height: 100vh;
 	overflow-y: hidden;
+
+	.sidebar_header {
+		padding-left: 20px;
+
+		.title {
+			font-size: 20;
+		}
+	}
 }

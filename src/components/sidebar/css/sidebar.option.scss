@@ -6,7 +6,6 @@
 }
 
 .sidebarOption {
-	max-width: 50vh;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -14,7 +13,7 @@
 	color: $text;
 	&:hover {
 		background-color: $hover;
-		border-radius: 30px;
+		border-radius: 0px;
 		@include trans();
 		h2 {
 			@include trans();

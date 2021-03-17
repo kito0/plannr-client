@@ -7,7 +7,9 @@ import { EventAvailable } from '@material-ui/icons';
 export default function Sidebar() {
 	return (
 		<div className="sidebar">
-			<h2>Plannr</h2>
+			<div className="sidebar_header">
+				<h2 className="title">Plannr</h2>
+			</div>
 			<SidebarOption active Icon={EventAvailable} text="Deadlines" />
 		</div>
 	);

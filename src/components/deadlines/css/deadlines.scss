@@ -6,8 +6,8 @@
 	overflow-y: scroll;
 	display: flex;
 	flex-direction: column;
-}
 
-.accordion {
-	background: #040505;
+	.accordion {
+		background-color: $component;
+	}
 }

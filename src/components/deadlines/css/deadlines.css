@@ -10,4 +10,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.deadlines .accordion {
+  background-color: #46595e;
+}
 /*# sourceMappingURL=deadlines.css.map */

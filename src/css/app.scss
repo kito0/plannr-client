@@ -1,11 +1,11 @@
 @import './theme';
 
-.root {
-    background-color: $background;
-    color: $text;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    overflow-y: hidden;
+.app {
+	background-color: $background;
+	color: $text;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	overflow-y: hidden;
 }

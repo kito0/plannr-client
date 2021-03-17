@@ -5,4 +5,12 @@
   height: 100vh;
   overflow-y: hidden;
 }
+
+.sidebar .sidebar_header {
+  padding-left: 20px;
+}
+
+.sidebar .sidebar_header .title {
+  font-size: 20;
+}
 /*# sourceMappingURL=sidebar.css.map */

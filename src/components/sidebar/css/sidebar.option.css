@@ -1,5 +1,4 @@
 .sidebarOption {
-  max-width: 50vh;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,7 +12,7 @@
 
 .sidebarOption:hover {
   background-color: #546f76;
-  border-radius: 30px;
+  border-radius: 0px;
   color: black;
   -webkit-transition: color 300ms ease;
   transition: color 300ms ease;
