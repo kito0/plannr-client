@@ -15,22 +15,21 @@
 		justify-content: space-between;
 
 		.card_content {
-			width: 100%;
 			display: flex;
+			flex-direction: row;
 			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			
 
-			.content_description {
-				text-transform: capitalize;
-			}
-			.content_category {
-				position: absolute;
-				left: 38vw;
-				font-style: italic;
-				text-transform: uppercase;
-			}
-			.content_date {
-				position: absolute;
-				left: 48vw;
+			.content_headers {
+				display: flex;
+				flex-direction: row;
+				width: 60%;
+
+				.content_description {
+					margin-left: 6rem;
+				}
 			}
 		}
 

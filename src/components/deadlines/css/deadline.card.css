@@ -19,29 +19,35 @@
 }
 
 .deadlinecard .card_root .card_content {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 
-.deadlinecard .card_root .card_content .content_description {
-  text-transform: capitalize;
+.deadlinecard .card_root .card_content .content_headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 60%;
 }
 
-.deadlinecard .card_root .card_content .content_category {
-  position: absolute;
-  left: 38vw;
-  font-style: italic;
-  text-transform: uppercase;
-}
-
-.deadlinecard .card_root .card_content .content_date {
-  position: absolute;
-  left: 48vw;
+.deadlinecard .card_root .card_content .content_headers .content_description {
+  margin-left: 6rem;
 }
 
 .deadlinecard .card_root .card_buttons {
