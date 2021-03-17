@@ -1,9 +1,9 @@
 @import '../../../css/theme';
 
 .deadlinecard {
-	background-color: rgba(39, 141, 152, 0.7);
-	border-radius: 10px;
-	border: 2px solid black;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	border: 1px solid $primary;
 	padding-left: 10px;
 	min-width: 720px;
 	width: 100%;
@@ -15,8 +15,23 @@
 		justify-content: space-between;
 
 		.card_content {
+			width: 100%;
 			display: flex;
 			align-items: center;
+
+			.content_description {
+				text-transform: capitalize;
+			}
+			.content_category {
+				position: absolute;
+				left: 38vw;
+				font-style: italic;
+				text-transform: uppercase;
+			}
+			.content_date {
+				position: absolute;
+				left: 48vw;
+			}
 		}
 
 		.card_buttons {

@@ -12,9 +12,13 @@ export default function DeadlineCard({ deadline }) {
 		<div className="deadlinecard">
 			<div className="card_root">
 				<div className="card_content">
-					<Typography variant="h4">{deadline.description}</Typography>
-					<Typography>{deadline.category}</Typography>
-					<Typography variant="caption">
+					<Typography className="content_description">
+						{deadline.description}
+					</Typography>
+					<Typography className="content_category">
+						{deadline.category}
+					</Typography>
+					<Typography variant="caption" className="content_date">
 						{deadline.dueDate.slice(0, 10)}
 					</Typography>
 				</div>

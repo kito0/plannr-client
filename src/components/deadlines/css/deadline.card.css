@@ -1,7 +1,7 @@
 .deadlinecard {
-  background-color: rgba(39, 141, 152, 0.7);
-  border-radius: 10px;
-  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid #133430;
   padding-left: 10px;
   min-width: 720px;
   width: 100%;
@@ -19,12 +19,29 @@
 }
 
 .deadlinecard .card_root .card_content {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.deadlinecard .card_root .card_content .content_description {
+  text-transform: capitalize;
+}
+
+.deadlinecard .card_root .card_content .content_category {
+  position: absolute;
+  left: 38vw;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.deadlinecard .card_root .card_content .content_date {
+  position: absolute;
+  left: 48vw;
 }
 
 .deadlinecard .card_root .card_buttons {

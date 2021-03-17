@@ -14,10 +14,7 @@
 	color: $text;
 	.sidebarOption--active {
 		background-color: $hover;
-		@include trans();
-		h2 {
-			@include trans();
-		}
+		color: black;
 	}
 	&:hover {
 		background-color: $hover;

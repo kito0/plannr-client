@@ -14,14 +14,6 @@
 .sidebarOption .sidebarOption--active {
   background-color: #546f76;
   color: black;
-  -webkit-transition: color 300ms ease;
-  transition: color 300ms ease;
-}
-
-.sidebarOption .sidebarOption--active h2 {
-  color: black;
-  -webkit-transition: color 300ms ease;
-  transition: color 300ms ease;
 }
 
 .sidebarOption:hover {
