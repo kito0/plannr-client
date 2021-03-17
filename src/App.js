@@ -1,11 +1,11 @@
 import './css/app.css';
-import Navbar from './components/navbar/Navbar';
+import Sidebar from './components/sidebar/Sidebar';
 import Deadlines from './components/deadlines/Deadlines';
 
 function App() {
 	return (
 		<div className="root">
-			<Navbar />
+			<Sidebar />
 			<Deadlines />
 		</div>
 	);

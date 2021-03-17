@@ -1,8 +1,15 @@
-.card_root {
-  width: 20vw;
-  height: auto;
-  margin-bottom: 15px;
+.deadlinecard {
   background-color: rgba(39, 141, 152, 0.7);
+  border-radius: 10px;
+  border: 2px solid black;
+  padding-left: 10px;
+  min-width: 720px;
+  width: 100%;
+  margin-bottom: 15px;
+  height: auto;
+}
+
+.deadlinecard .card_root {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,35 +18,21 @@
           justify-content: space-between;
 }
 
-.card_root .card_content {
+.deadlinecard .card_root .card_content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
-.card_root .card_buttons {
-  width: 3vw;
-  background-color: grey;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.card_root .card_buttons .button {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+.deadlinecard .card_root .card_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=deadline.card.css.map */

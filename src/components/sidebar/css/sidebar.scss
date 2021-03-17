@@ -1,0 +1,9 @@
+@import '../../../css/theme';
+
+.sidebar {
+	background-color: rgba($color: black, $alpha: 0.3);
+	color: rgba($color: $text, $alpha: 1);
+	width: 20vw;
+	height: 100vh;
+	overflow-y: hidden;
+}

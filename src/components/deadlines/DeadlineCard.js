@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-	Card,
-	CardActions,
-	CardContent,
-	IconButton,
-	Typography,
-} from '@material-ui/core';
+import { IconButton, Typography } from '@material-ui/core';
 import { Edit, Delete } from '@material-ui/icons';
 import { useDispatch } from 'react-redux';
 import { EditDeadline, DeleteDeadline } from '../../redux/deadlines';
@@ -16,13 +10,15 @@ export default function DeadlineCard({ deadline }) {
 
 	return (
 		<div className="deadlinecard">
-			<Card className="card_root">
-				<CardContent className="card_content">
-					<Typography variant="h4">{deadline.category}</Typography>
-					<Typography gutterBottom>{deadline.description}</Typography>
-					<Typography variant="caption">{deadline.dueDate}</Typography>
-				</CardContent>
-				<CardActions className="card_buttons">
+			<div className="card_root">
+				<div className="card_content">
+					<Typography variant="h4">{deadline.description}</Typography>
+					<Typography>{deadline.category}</Typography>
+					<Typography variant="caption">
+						{deadline.dueDate.slice(0, 10)}
+					</Typography>
+				</div>
+				<div className="card_buttons">
 					<IconButton className="button">
 						<Edit />
 					</IconButton>
@@ -34,8 +30,8 @@ export default function DeadlineCard({ deadline }) {
 					>
 						<Delete />
 					</IconButton>
-				</CardActions>
-			</Card>
+				</div>
+			</div>
 		</div>
 	);
 }
