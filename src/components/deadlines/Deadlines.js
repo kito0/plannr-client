@@ -15,7 +15,7 @@ export default function Deadlines() {
 
 	useEffect(() => {
 		GetDeadlines(dispatch);
-	}, [deadlines]);
+	}, [deadlines, dispatch]);
 
 	return (
 		<div className="deadlines">
