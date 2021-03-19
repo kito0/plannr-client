@@ -159,7 +159,13 @@ export default function Deadlines() {
 				</AccordionSummary>
 				<AccordionDetails>
 					<ul>
-						{deadlines.filter(deadline => (deadline.completed === true)).map((filteredDeadline) => (
+						{deadlines.filter(deadline => (
+							deadline.completed === true 
+							|| 
+							parseInt(deadline.dueDate.slice(0, 5)) >= dateString.slice(0, 5) &&
+							parseInt(deadline.dueDate.slice(5, 7)) >= dateString.slice(5, 7) &&
+							parseInt(deadline.dueDate.slice(8, 10)) > dateString.slice(8, 10)
+						).map((filteredDeadline) => (
 							<DeadlineCard key={filteredDeadline._id} deadline={filteredDeadline} />
 						))}
 					</ul>
